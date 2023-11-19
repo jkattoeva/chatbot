@@ -43,7 +43,7 @@ const Header: React.FC = () => {
           className={({ isActive }) =>
             isActive ? scss.active_link : scss.link
           }
-          to="/bott"
+          to="/bot"
         >
           Chat Bot
         </NavLink>
