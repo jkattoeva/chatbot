@@ -4,17 +4,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  font-family: "Peridot", sans-serif;
   list-style-type: none;
   text-decoration: none;
-  font-family: "Peridot", sans-serif;
 }
 body {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   background-color: rgb(43, 41, 41);
   overflow-x: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
 }
 .container {
   width: 100%;

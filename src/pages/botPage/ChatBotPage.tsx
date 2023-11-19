@@ -1,6 +1,6 @@
 import React from "react";
 
-const ChatBotPage = () => {
+const ChatBotPage: React.FC = () => {
   return <div>ChatBotPage</div>;
 };
 

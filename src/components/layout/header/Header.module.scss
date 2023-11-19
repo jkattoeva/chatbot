@@ -45,22 +45,24 @@
   }
 
   .nav_active {
-    padding: 1rem 2rem;
-    position: absolute;
-    top: 65px;
-    right: 65px;
-    z-index: 50;
-    visibility: hidden;
-    opacity: 0;
-    transform: translateY(-200px);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 0.8rem;
-    background-color: rgb(102, 101, 101);
-    border-radius: 0.5rem;
+
+    position: absolute;
+    top: 65px;
+    right: 65px;
+    z-index: 50;
+    transform: translateY(-200px);
     transition: 0.4s;
+
+    visibility: hidden;
+    opacity: 0;
+    background-color: rgb(102, 101, 101);
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
 
     @media (max-width: 800px) {
       visibility: visible;

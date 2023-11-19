@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import { NavLink, Link } from "react-router-dom";
 import scss from "./Header.module.scss";
 
-const Header = () => {
-  const [active, setActive] = useState(false);
-  const [toggle, setToggle] = useState(false);
+const Header: React.FC = () => {
+  const [active, setActive] = useState<boolean>(false);
+  const [toggle, setToggle] = useState<boolean>(false);
 
   const handleScroll = () => {
     if (window.scrollY >= 60) {
@@ -43,7 +43,7 @@ const Header = () => {
           className={({ isActive }) =>
             isActive ? scss.active_link : scss.link
           }
-          to="/bot"
+          to="/bott"
         >
           Chat Bot
         </NavLink>
